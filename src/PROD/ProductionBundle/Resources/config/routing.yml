@@ -1,0 +1,3 @@
+prod_production_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PRODProductionBundle:Default:index }
